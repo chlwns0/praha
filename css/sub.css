@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "JalnanGothic";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-7Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-6Semibold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-6Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-4Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrap {
+    max-width: 1920px;
+    min-width: 1400px;
+    margin: 0 auto;
+}
+
+.sub_visual {
+    width: 100%;
+    height: auto;
+
+    position: relative;
+    top: 100px;
+}
+
+.sub_visual .title {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.sub_visual .title h1 {
+    /* border: 1px solid red; */
+
+    text-align: center;
+    font-size: 44px;
+    font-family: "Freesentation-6Semibold";
+}
+
+.sub_page {
+    position: relative;
+    width: 100%;
+}
+
+.sub_page .sub {
+    width: 1300px;
+    margin: 150px auto 50px;
+
+}
+
+footer {
+    background-color: #5b5b5b;
+}
